@@ -4,7 +4,7 @@ attr_accessor :name, :roster
   
   def initialize(name)
     @name = name 
-    @roster = hash.new {|h,k| h[K]=[]}
+    @roster = {}
   end 
   
   def roster 
